@@ -4,7 +4,7 @@
 define('PUBLIC_PATH', __DIR__);
 
 // Bootstrap
-$app = require PUBLIC_PATH.'/../bootstrap/app.php';
+$app = require PUBLIC_PATH . '/../bootstrap.php';
 
-// Run ButterFly!
-$app->run();
+// Init slim routes
+require BASE_PATH . '/config/routes.php';
