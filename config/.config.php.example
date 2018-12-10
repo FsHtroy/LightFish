@@ -3,14 +3,14 @@ $System_Config['debug'] =  'false';
 $System_Config['timeZone'] = 'PRC';
 $System_Config['jump_delay']='1200';
 
-$System_Config['appName'] = 'LightFish';
+$System_Config['appName'] = 'SlimDev';
 $System_Config['baseUrl'] = 'http://url.com';
 
-$System_Config['db_driver'] = 'mysql';		//数据库程序
-$System_Config['db_host'] = 'localhost'; //数据库地址
-$System_Config['db_database'] = 'sspanel';			//数据库名
-$System_Config['db_username'] = 'root';		//数据库用户名
-$System_Config['db_password'] = 'sspanel';			//用户名对应的密码
+$System_Config['db_driver'] = 'mysql';		            //数据库程序
+$System_Config['db_host'] = 'localhost';                //数据库地址
+$System_Config['db_database'] = 'homestead';			//数据库名
+$System_Config['db_username'] = 'homestead';		    //数据库用户名
+$System_Config['db_password'] = 'secret';			    //用户名对应的密码
 $System_Config['db_charset'] = 'utf8';
 $System_Config['db_collation'] = 'utf8_general_ci';
 $System_Config['db_prefix'] = '';

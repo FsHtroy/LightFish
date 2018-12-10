@@ -2,35 +2,15 @@
 
 A tiny php framework base on slim.
 
+Mod by Htroy.
 
-## Config
+Build up:
 
-### Routes
+PhpStorm:  
+composer install  
+bash init.sh  
+then edit homestead nginx conf  
 
-The routes config file in: 
-
-```
-/routes/web.php
-```
-Read more on [Slim Doc](http://www.slimframework.com/docs/objects/router.html)
-
-### Controller 
-
-All Controller in
-
-```
-/App/Controllers
-```
-
-### Views
- 
-using twig.
- 
-### Models
-
-uncomment `bootstrap/app.php` to using Eloquent.
-
-```
-// $app->registerEloquent();
-```
-
+location / {  
+    try_files $uri $uri/ /index.php$is_args$args;  
+}
