@@ -24,6 +24,6 @@
     }
   },
   "require-dev": {
-    "laravel/homestead": "^4.0@dev"
+    "laravel/homestead": "^9.0@dev"
   }
 }
